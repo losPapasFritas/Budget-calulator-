@@ -1,10 +1,25 @@
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* .inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+   */
+
 * {
     box-sizing: border-box;
 }
 body {
+    margin: 1rem;
     display: flex;
     justify-content: space-between;
     background-color: #F5F5F5;
+    font-family: "Inter", sans-serif;
 }
 .left,
 .right {
@@ -12,6 +27,11 @@ body {
     background-color: #99D4FF;
     width: 49%;
     height: 98%;
+    border: 3px black solid;
+}
+h1 {
+    font-size: 2rem;
+    text-align: center;
 }
 .left {
     height: 50%;
@@ -21,7 +41,6 @@ body {
     flex-flow: column;
     background-color: #99D4FF;
 }
-/* adding space between is needed, but doesn't work */
 .row {
     display: flex;
     justify-content: space-between;
@@ -31,10 +50,28 @@ body {
     padding-right: 5%;
     padding-left: 5%;
 }
+.row div{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    text-align: right;
+}
+#remainingAmount div {
+    justify-content: flex-end;
+    text-align: right;
+}
+.row p {
+    width: 70%;
+}
+.row input {
+    width: 10rem;
+    height: 60%;
+    margin: 0;
+    margin-left: 4px;
+}
 .rightrow {
     display: flex;
     justify-content: space-between;
-    padding: 0 5% 0 5%;
 }
 /* rightrow needs to be made the entire height of the page */
 input {
@@ -42,7 +79,8 @@ input {
     align-self: center;
     background-color: #93F291;
     width: 50%;
-    height: 50%;
+    height: 60%;
+    margin: 1rem 0;
 }
 .center {
     display: flex;
