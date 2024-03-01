@@ -24,17 +24,27 @@ body {
 /* adding space between is needed, but doesn't work */
 .row {
     display: flex;
+    justify-content: space-between;
+    background-color:#E6E6E6 ;
+    border-style: solid;
+    margin: 1%;
     padding-right: 5%;
     padding-left: 5%;
 }
 .rightrow {
     display: flex;
+    justify-content: space-between;
     padding: 0 5% 0 5%;
 }
 /* rightrow needs to be made the entire height of the page */
 input {
     display: flex;
     align-self: center;
+    background-color: #93F291;
     width: 50%;
     height: 50%;
+}
+.center {
+    display: flex;
+    justify-content: center;
 }
