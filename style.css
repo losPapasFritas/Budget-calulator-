@@ -26,9 +26,26 @@ body {
     flex-flow: column;
     background-color: #99D4FF;
     width: 49%;
-    height: 98%;
+    height: 59.9rem;
     border: 3px black solid;
 }
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.rightrow {
+    background-color:#E6E6E6 ;
+    border-style: solid;
+    margin: 1%;
+    padding-left: 15%;
+    padding-right:15%
+}
+
 h1 {
     font-size: 2rem;
     text-align: center;
