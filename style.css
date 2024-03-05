@@ -103,3 +103,12 @@ input {
     display: flex;
     justify-content: center;
 }
+.para{
+    border-style:solid;
+    border-radius:5px;
+    background-color:#93F291;
+    padding-left:90px;
+    padding-right:30px;
+    padding-top:15px;
+    padding-bottom:5px;
+}

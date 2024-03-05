@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
         output = (fedTax + stTax + socSec + medicare + stDis + retInv) - 180
 
         console.log(output)
+        document.getElementById("")
 
     });
 
