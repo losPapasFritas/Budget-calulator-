@@ -1,0 +1,110 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  justify-content: space-between;
+  margin: 1rem;
+  font-family: Inter, sans-serif;
+  display: flex;
+}
+
+.left, .right {
+  background-color: #99d4ff;
+  border: 3px solid #000;
+  flex-flow: column;
+  width: 49%;
+  height: 59.9rem;
+}
+
+.right {
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: flex;
+}
+
+.rightrow {
+  background-color: #e6e6e6;
+  border-style: solid;
+  margin: 1%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.left {
+  height: 50%;
+}
+
+.topleft {
+  background-color: #99d4ff;
+  flex-flow: column;
+  display: flex;
+}
+
+.row {
+  background-color: #e6e6e6;
+  border-style: solid;
+  justify-content: space-between;
+  margin: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+}
+
+.row div {
+  text-align: right;
+  justify-content: space-between;
+  width: 30%;
+  display: flex;
+}
+
+#remainingAmount div {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.row p {
+  width: 70%;
+}
+
+.row input {
+  width: 10rem;
+  height: 60%;
+  margin: 0 0 0 4px;
+}
+
+.rightrow {
+  justify-content: space-between;
+  display: flex;
+}
+
+input {
+  background-color: #93f291;
+  align-self: center;
+  width: 50%;
+  height: 60%;
+  margin: 1rem 0;
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  display: flex;
+}
+
+.para {
+  background-color: #93f291;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 15px 30px 5px 90px;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */
