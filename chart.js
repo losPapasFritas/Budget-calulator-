@@ -10,7 +10,7 @@ import Chart from './node_modules/chart.js/auto'
         ],
         datasets: [{
           label: 'My First Dataset',
-          data: [300, 50, 100],
+          data: [100, 100, 301],
           backgroundColor: [
             'rgb(255, 99, 132)',
             'rgb(54, 162, 235)',

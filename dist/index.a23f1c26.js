@@ -598,9 +598,9 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
             {
                 label: "My First Dataset",
                 data: [
-                    300,
-                    50,
-                    100
+                    0,
+                    100,
+                    300
                 ],
                 backgroundColor: [
                     "rgb(255, 99, 132)",

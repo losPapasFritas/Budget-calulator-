@@ -11,21 +11,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let monthvalue = document.getElementById("monthSalary").value
 
-        fedTax = (monthvalue * fedTax);
+        fedTax = Math.ceil(monthvalue * fedTax);
+        document.getElementById("fedTax").innerHTML = fedTax;
 
-        stTax = (monthvalue * stTax)
+        stTax = Math.ceil(monthvalue * stTax)
+        document.getElementById("stateTax").innerHTML = stTax;
 
-        let socSec = monthvalue * 0.062;
+        let socSec = Math.ceil(monthvalue * 0.062);
+        document.getElementById("socks").innerHTML = socSec;
 
-        let medicare = monthvalue * 0.0145;
+        let medicare = Math.ceil(monthvalue * 0.0145);
+        document.getElementById("meds").innerHTML = medicare;
 
-        let stDis = monthvalue * 0.01
+        let stDis = Math.ceil(monthvalue * 0.01);
+        document.getElementById("disable").innerHTML = stDis;
 
-        let retInv = monthvalue * 0.05;
+        let retInv = Math.ceil(monthvalue * 0.05);
+        document.getElementById("retire").innerHTML = retInv;
 
-        output = (fedTax + stTax + socSec + medicare + stDis + retInv) - 180
+        output = (fedTax + stTax + socSec + medicare + stDis + retInv) + 180;
 
-        console.log(output)
+        console.log(output);
         document.getElementById("")
 
     });
