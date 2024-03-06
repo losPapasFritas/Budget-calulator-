@@ -9,8 +9,8 @@ import Chart from './node_modules/chart.js/auto'
           'Yellow'
         ],
         datasets: [{
-          label: 'My First Dataset',
-          data: [100, 100, 301],
+          label: ' Spending Pie Chart',
+          data: [10, 10, 30],
           backgroundColor: [
             'rgb(255, 99, 132)',
             'rgb(54, 162, 235)',

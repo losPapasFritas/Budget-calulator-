@@ -596,11 +596,11 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
         ],
         datasets: [
             {
-                label: "My First Dataset",
+                label: " Spending Pie Chart",
                 data: [
-                    0,
-                    100,
-                    300
+                    10,
+                    10,
+                    30
                 ],
                 backgroundColor: [
                     "rgb(255, 99, 132)",

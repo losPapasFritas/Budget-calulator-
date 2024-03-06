@@ -89,7 +89,7 @@
                     <option value="Welder/Metal Spec.">Welder/Metal Spec.</option>
                     <option value="Wind Energy Tech.">Wind Energy Tech.</option>
                 </select>
-            </section >
+            </section>
             <section>
                 <input type="number" placeholder="Monthly Salary" id="monthSalary">
             </section>
@@ -150,136 +150,190 @@
                 <input type="text" placeholder="City of Residence">
             </section>
             <section class="row">
-                <p>Federal Taxes</p>
-                <div>
+                <section class="title">
+                    <p>Federal Taxes</p>
                     <p>12%</p>
+                </section>
+                <section class="return">
                     <p>$</p>
-                    <p class="para" id="fedTax"></p>
-                </div>
+                    <p class="output" id="fedTax"></p>
+                </section>
             </section>
             <section class="row">
-                <p>State Taxes</p>
-                <div>
+                <section class="title">
+                    <p>State Taxes</p>
                     <p>7%</p>
+                </section>
+                <section class="return">
                     <p>$</p>
-                    <p class="para" id="stateTax"></p>  
-                </div>
+                    <p class="output" id="stateTax"></p>
+                </section>
             </section>
             <section class="row">
-                <p>Social Security</p>
-                <div>
+                <section class="title">
+                    <p>Social Security</p>
                     <p>6.2%</p>
+                </section>
+                <section class="return">
                     <p>$</p>
-                    <p class="para" id="socks"></p>
-                </div>
+                    <p class="output" id="socks"></p>
+                </section>
             </section>
             <section class="row">
-                <p>Medicare</p>
-                <div>
+                <section class="title">
+                    <p>Medicare</p>
                     <p>1.45%</p>
+                </section>
+                <section class="return">
                     <p>$</p>
-                    <p class="para" id="meds"></p>
-                </div>
+                    <p class="output" id="meds"></p>
+                </section>
             </section>
             <section class="row">
-                <p>State Disability</p>
-                <div>
+                <section class="title">
+                    <p>State Disability</p>
                     <p>1%</p>
+                </section>
+                <section class="return">
                     <p>$</p>
-                    <p class="para" id="disable"></p>
-                </div>
+                    <p class="output" id="disable"></p>
+                </section>
             </section>
             <section class="row">
-                <p>Retirement Investment</p>
-                <div>
+                <section class="title">
+                    <p>Retirement Investment</p>
                     <p>5%</p>
+                </section>
+                <section class="return">
                     <p>$</p>
-                    <p class="para" id="retire"></p> 
-                </div>
+                    <p class="output" id="retire"></p>
+                </section>
             </section>
             <section class="row">
-                <p>Medical Insurance</p>
-                <div>
+                <section class="title">
+                    <p>Medical Insurance</p>
                     <p>$180</p>
+                </section>
+                <section class="return">
                     <p>$</p>
-                    <p class="para"></p>
-                </div>
+                    <p class="output"></p>
+                </section>
             </section>
             <section class="row" id="remainingAmount">
-                <p>Remaining Amount</p>
-                <div>
+                <section class="title">
+                    <p>Remaining Amount</p>
+                </section>
+                <section class="return">
                     <p>$</p>
-                    <p></p>    
-                </div>
+                    <p id="money" class="output"></p>
+                </section>
             </section>
-
         </section>
-        <div style="width: 800px;"><canvas id="chart"></canvas></div>
-        <script type="module" src="chart.js"></script>
-    </section>
-
-    <section class="right">
-        <section class="rightrow">
-            <p>$0</p>
-            <p>Loans</p>
-            <section></section>
-            <input type="text">
+        <div style="width: 800px;"><canvas id="chart"></canvas>
+            <script type="module" src="chart.js"></script>
+        </div>
         </section>
-        <section class="rightrow">
-            <p>$0</p>
-            <p>Housing and Insurance</p>
-            <section></section>
-            <input type="text">
+        <section class="right">
+            <section class="row">
+                <section class="title">
+                <p>$0</p>
+                <p>Loans</p>
+                </section>
+                <section class="return">
+                <section></section>
+                <input id="loans" type="number">
+                </section>
+            </section>
+            <section class="row">
+                <section class="title">
+                <p>$0</p>
+                <p>Housing and Insurance</p>
+                </section>
+                <section class="return">
+                <section></section>
+                <input id="housing" type="number">
+                </section>
+            </section>
+            <section class="row">
+                <section class="title">
+                <p>$0</p>
+                <p>Utilities</p>
+                </section>
+                <section class="return">
+                <section></section>
+                <input id="utilities" type="number">
+                </section>
+            </section>
+            <section class="row">
+                <section class="title">
+                <p>$0</p>
+                <p>Transportation</p>
+                </section>
+                <section class="return">
+                <section></section>
+                <input id="transportation" type="number">
+                </section>
+            </section>
+            <section class="row">
+                <section class="title">
+                <p>$0</p>
+                <p>Food</p>
+                </section>
+                <section class="return">
+                <section></section>
+                <input id="food" type="number">
+                </section>
+            </section>
+            <section class="row">
+                <section class="title">
+                <p>$0</p>
+                <p>Clothing</p>
+                </section>
+                <section class="return">
+                <section></section>
+                <input id="clothing" type="number">
+                </section>
+            </section>
+            <section class="row">
+                <section class="title">
+                <p>$0</p>
+                <p>Media</p>
+                </section>
+                <section class="return">
+                <section></section>
+                <input id="media" type="number">
+                </section>
+            </section>
+            <section class="row">
+                <section class="title">
+                <p>$0</p>
+                <p>Entertainment</p>
+                </section>
+                <section class="return">
+                <section></section>
+                <input id="entertainment" type="number">
+                </section>
+            </section>
+            <section class="row">
+                <section class="title">
+                <p>$0</p>
+                <p>Savings</p>
+                </section>
+                <section class="return">
+                <section></section>
+                <input id="savings" type="number">
+                </section>
+            </section>
+            <section class="row">
+                <section class="title">
+                <p>$0</p>
+                <p>Total</p>
+                </section>
+                <section class="return">
+                <p>$0</p>
+                </section>
+            </section>
         </section>
-        <section class="rightrow">
-            <p>$0</p>
-            <p>Housing and Insurance</p>
-            <section></section>
-            <input type="text">
-        </section>
-        <section class="rightrow">
-            <p>$0</p>
-            <p>Transportation</p>
-            <section></section>
-            <input type="text">
-        </section>
-        <section class="rightrow">
-            <p>$0</p>
-            <p>Food</p>
-            <section></section>
-            <input type="text">
-        </section>
-        <section class="rightrow">
-            <p>$0</p>
-            <p>Clothing</p>
-            <section></section>
-            <input type="text">
-        </section>
-        <section class="rightrow">
-            <p>$0</p>
-            <p>Media</p>
-            <section></section>
-            <input type="text">
-        </section>
-        <section class="rightrow">
-            <p>$0</p>
-            <p>Entertainment</p>
-            <section></section>
-            <input type="text">
-        </section>
-        <section class="rightrow">
-            <p>$0</p>
-            <p>Savings</p>
-            <section></section>
-            <input type="text">
-        </section>
-        <section class="rightrow">
-            <p>$0</p>
-            <p>Total</p>
-            <p>$0</p>
-        </section>
-    </section>
-
 </body>
 
 </html>

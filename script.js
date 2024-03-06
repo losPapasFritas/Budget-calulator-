@@ -1,3 +1,5 @@
+// npm run dev
+
 document.addEventListener("DOMContentLoaded", function () {
 
 
@@ -30,6 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("retire").innerHTML = retInv;
 
         output = (fedTax + stTax + socSec + medicare + stDis + retInv) + 180;
+
+        document.getElementById("money").innerHTML = output;
 
         console.log(output);
         document.getElementById("")
