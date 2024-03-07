@@ -117,3 +117,15 @@ input {
     background-color:#93F291;
     padding: 5px 90px 5px 30px;
 }
+#inputHolder p {
+    display:flex;
+    justify-content: center;
+    border-style: solid;
+    border: 2px solid black;
+    background-color: #93F291;
+    padding: 10px;
+}
+#inputHolder {
+ display:flex;
+ justify-content: center;
+}

@@ -115,6 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let output = 0;
 
         let monthvalue = document.getElementById("monthSalary").value
+        console.log(monthvalue);
 
         fedTax = Math.ceil(monthvalue * fedTax);
         document.getElementById("fedTax").innerHTML = fedTax;
