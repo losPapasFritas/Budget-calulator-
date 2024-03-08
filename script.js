@@ -53,7 +53,7 @@ async function init() {
     let root = document.querySelector('#jobs');
 
     //create a variable to hold the URL of the JSON data source
-    let url = 'https://eecu-data-server.vercel.app/data/2024';
+    let url = 'https://api-demo.cartwebapp.com/data/2024';
 
     //create a variable to hold the JSON data
     let occupations = null; 
@@ -94,55 +94,112 @@ function buildList(jobs) {
     //return the completed html
     return html;
 }
-//initialize the web page when the DOM is ready
-document.addEventListener('DOMContentLoaded', init);
 
+function updateMoney(money){
+    let fedTax = 0.12;
+
+    let stTax = 0.07;
+
+    let output = 0;
+
+    console.log(money);
+
+    document.getElementById(`salaryConst`).innerHTML = money
+
+    fedTax = Math.ceil(money * fedTax);
+    document.getElementById("fedTax").innerHTML = fedTax;
+
+    stTax = Math.ceil(money * stTax)
+    document.getElementById("stateTax").innerHTML = stTax;
+
+    let socSec = Math.ceil(money * 0.062);
+    document.getElementById("socks").innerHTML = socSec;
+
+    let medicare = Math.ceil(money * 0.0145);
+    document.getElementById("meds").innerHTML = medicare;
+
+    let stDis = Math.ceil(money * 0.01);
+    document.getElementById("disable").innerHTML = stDis;
+
+    let retInv = Math.ceil(money * 0.05);
+    document.getElementById("retire").innerHTML = retInv;
+
+    output = (fedTax + stTax + socSec + medicare + stDis + retInv) + 180;
+
+    document.getElementById("money").innerHTML = money - output;
+}
+
+function addRight(){
+    let loans = parseFloat(document.getElementById(`loans`).value);
+    let housing = parseFloat(document.getElementById(`housing`).value);
+    let util = parseFloat(document.getElementById(`utilities`).value);
+    let transport = parseFloat(document.getElementById(`transportation`).value);
+    let food = parseFloat(document.getElementById(`food`).value);
+    let clothes = parseFloat(document.getElementById(`clothing`).value);
+    let media = parseFloat(document.getElementById(`media`).value);
+    let entertain = parseFloat(document.getElementById(`entertainment`).value);
+    let savings = parseFloat(document.getElementById(`savings`).value);
+    let total = loans + housing + util + transport + food + clothes + media + entertain + savings;
+    document.getElementById(`total`).innerHTML =`$` + total
+}
+
+document.addEventListener('DOMContentLoaded', init);
+    
 document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById('jobs').addEventListener('change', function (eventData) {
         if(eventData.target.value == 0){
-            document.getElementById(`inputHolder`).innerHTML = `<input type="number" placeholder="Monthly Salary" id="monthSalary">`
+            document.getElementById(`monthSalary`).classList.remove(`hidden`);
+            document.getElementById(`salaryConst`).classList.remove(`visible`);
+            document.getElementById(`monthSalary`).classList.add(`visible`);
+            document.getElementById(`salaryConst`).classList.add(`hidden`);
         } else{
-            document.getElementById(`inputHolder`).innerHTML = `<p id='monthSalary'>$${eventData.target.value}</p>`
+            document.getElementById(`monthSalary`).classList.remove(`visible`);
+            document.getElementById(`salaryConst`).classList.remove(`hidden`);
+            document.getElementById(`monthSalary`).classList.add(`hidden`);
+            document.getElementById(`salaryConst`).classList.add(`visible`);
+
+            updateMoney(eventData.target.value);
         }
     })
 
     document.getElementById('monthSalary').addEventListener('change', function (eventData) {
-        let fedTax = 0.12;
-
-        let stTax = 0.07;
-
-        let output = 0;
-
-        let monthvalue = document.getElementById("monthSalary").value
-        console.log(monthvalue);
-
-        fedTax = Math.ceil(monthvalue * fedTax);
-        document.getElementById("fedTax").innerHTML = fedTax;
-
-        stTax = Math.ceil(monthvalue * stTax)
-        document.getElementById("stateTax").innerHTML = stTax;
-
-        let socSec = Math.ceil(monthvalue * 0.062);
-        document.getElementById("socks").innerHTML = socSec;
-
-        let medicare = Math.ceil(monthvalue * 0.0145);
-        document.getElementById("meds").innerHTML = medicare;
-
-        let stDis = Math.ceil(monthvalue * 0.01);
-        document.getElementById("disable").innerHTML = stDis;
-
-        let retInv = Math.ceil(monthvalue * 0.05);
-        document.getElementById("retire").innerHTML = retInv;
-
-        output = (fedTax + stTax + socSec + medicare + stDis + retInv) + 180;
-
-        document.getElementById("money").innerHTML = output;
-
-        console.log(output);
-        document.getElementById("")
-
+        if(document.getElementById("monthSalary").value >= 100000000000){
+            window.alert(`Input value is too large`);
+        }
+        else if(document.getElementById("monthSalary").value < 0){
+            window.alert(`Input value is too small`);
+        }
+        else{
+            updateMoney(document.getElementById("monthSalary").value);
+        }
     });
-
+    document.getElementById(`loans`).addEventListener(`change`, function (){
+        addRight();
+    });
+    document.getElementById(`housing`).addEventListener(`change`, function (){
+        addRight();
+    });
+    document.getElementById(`utilities`).addEventListener(`change`, function (){
+        addRight();
+    });
+    document.getElementById(`transportation`).addEventListener(`change`, function (){
+        addRight();
+    });
+    document.getElementById(`food`).addEventListener(`change`, function (){
+        addRight();
+    });
+    document.getElementById(`clothing`).addEventListener(`change`, function (){
+        addRight();
+    });
+    document.getElementById(`media`).addEventListener(`change`, function (){
+        addRight();
+    });
+    document.getElementById(`entertainment`).addEventListener(`change`, function (){
+        addRight();
+    });
+    document.getElementById(`savings`).addEventListener(`change`, function (){
+        addRight();
+    });
 
 });

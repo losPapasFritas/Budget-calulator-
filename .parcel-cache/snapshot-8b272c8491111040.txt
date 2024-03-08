@@ -5,7 +5,7 @@
 86C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\lru-cache\README.md133541535590445818 0
 81C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\srcset\license133541535580431508 0
 102C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\css-select\lib\esm\general.d.ts.map133541535689069290 0
-69C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist\index.html133542377785112482 0
+69C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist\index.html133544142929233367 0
 112C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\@swc\helpers\cjs\_class_private_field_set.cjs133541535673499665 0
 127C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\htmlnano\docs\versioned_docs\version-2.0.0\060-contribute.md133541535714282009 0
 105C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\caniuse-lite\data\features\fontface.js133541535785506543 0
@@ -20,7 +20,7 @@
 110C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\@parcel\workers\lib\process\ProcessChild.js133541535676010125 0
 87C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\semver\bin\semver.js133541535688875690 0
 92C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\ordered-binary\index.d.ts133541535648016116 0
-58C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist133542377785205607 1
+58C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist133544144061535719 1
 102C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\svgo\lib\svgo\css-select-adapter.js133541535676010125 0
 88C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\actual\regexp133541536966299630 1
 106C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\full\typed-array\copy-within.js133541536717778269 0
@@ -62,7 +62,7 @@
 109C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\internals\regexp-sticky-helpers.js133541536914378414 0
 94C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\css-tree\lib\utils\ident.js133541535756499616 0
 117C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\htmlnano\lib\modules\removeRedundantAttributes.cjs133541535672847589 0
-62C:\Users\150086967\Documents\GitHub\Budget-calulator-\chart.js133542375900097854 0
+62C:\Users\150086967\Documents\GitHub\Budget-calulator-\chart.js133544129338916068 0
 91C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\supports-color\readme.md133541535607156174 0
 88C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\dayjs\locale\es-pr.js133541536678565384 0
 113C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\.bin\node-gyp-build-optional-packages-test.cmd133541535838989338 0
@@ -72,7 +72,7 @@
 91C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\ramda\src\reduceWhile.js133541536736273054 0
 91C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\ramda\src\dropRepeats.js133541536703468615 0
 104C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\modules\es.array.to-sorted.js133541536740283399 0
-64C:\Users\150086967\Documents\GitHub\Budget-calulator-\index.html133542377783834579 0
+64C:\Users\150086967\Documents\GitHub\Budget-calulator-\index.html133544142926485898 0
 109C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\modules\es.object.define-getter.js133541536751068905 0
 97C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\actual\object\proto.js133541536906535855 0
 71C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\svgo133541535679886902 1
@@ -103,7 +103,7 @@
 91C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\@trysound\sax\lib\sax.js133541535578257712 0
 66C:\Users\150086967\Documents\GitHub\Budget-calulator-\package.json133541542980081268 0
 89C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\caniuse-lite\README.md133541535838316660 0
-63C:\Users\150086967\Documents\GitHub\Budget-calulator-\script.js133542376992035315 0
+63C:\Users\150086967\Documents\GitHub\Budget-calulator-\script.js133544144059076752 0
 84C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\ramda\src\last.js133541536717643613 0
 104C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\actual\typed-array\methods.js133541536887525981 0
 110C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\caniuse-lite\data\features\vector-effect.js133541535831319496 0
@@ -116,7 +116,7 @@
 127C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\csso\node_modules\css-tree\cjs\syntax\node\ClassSelector.cjs133541535652324122 0
 104C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\internals\set-intersection.js133541536923213634 0
 98C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\caniuse-lite\data\regions\MR.js133541535811455550 0
-63C:\Users\150086967\Documents\GitHub\Budget-calulator-\style.css133542375509294033 0
+63C:\Users\150086967\Documents\GitHub\Budget-calulator-\style.css133544118437985738 0
 83C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\ramda\es\pick.js133541536732387488 0
 108C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\features\array-buffer\detached.js133541536730558172 0
 118C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\csso\node_modules\css-tree\cjs\generator\create.cjs133541535671498221 0
@@ -1054,7 +1054,7 @@
 102C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\internals\internal-state.js133541536856539879 0
 99C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\@parcel\utils\src\http-server.js133541535676353957 0
 123C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\csso\node_modules\css-tree\lib\syntax\node\StyleSheet.js133541535766454466 0
-77C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist\index.3a01df49.css133542376184177329 0
+77C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist\index.3a01df49.css133544144060984053 0
 85C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\uuid\dist\parse.js133541536664840251 0
 101C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\actual\suppressed-error.js133541536944397309 0
 96C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\ramda\es\internal\_isArray.js133541536671675989 0
@@ -5399,7 +5399,7 @@
 118C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\csso\node_modules\css-tree\lib\syntax\node\index.js133541535757303912 0
 125C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\csso\node_modules\css-tree\lib\syntax\node\MediaFeature.js133541535759086687 0
 94C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\modules\web.btoa.js133541536985167025 0
-81C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist\index.3a01df49.css.map133542376184351659 0
+81C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist\index.3a01df49.css.map133544144061054871 0
 99C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\full\typed-array\sort.js133541536933942823 0
 127C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\csso\node_modules\css-tree\lib\syntax\node\MediaQueryList.js133541535759319638 0
 119C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\csso\node_modules\css-tree\lib\syntax\node\Number.js133541535759908948 0
@@ -6895,7 +6895,7 @@
 104C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\modules\es.string.includes.js133541536757662223 0
 97C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\es\instance\reverse.js133541536918893920 0
 103C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\modules\es.string.italics.js133541536757818244 0
-80C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist\index.672d4772.js.map133542376183332344 0
+80C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist\index.672d4772.js.map133544144060684814 0
 104C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\modules\es.string.iterator.js133541536757904014 0
 105C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\core-js\modules\es.string.match-all.js133541536758053613 0
 111C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\@babel\runtime\helpers\regeneratorRuntime.js133541536694860686 0
@@ -9230,7 +9230,7 @@
 108C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\caniuse-lite\data\features\css-filters.js133541535753900146 0
 113C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\caniuse-lite\data\features\css-focus-within.js133541535754867504 0
 124C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\caniuse-lite\data\features\css-font-rendering-controls.js133541535755075850 0
-76C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist\index.672d4772.js133542376183192877 0
+76C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist\index.672d4772.js133544144060539235 0
 95C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\@parcel\source-map\README.md133541535671387288 0
 113C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\caniuse-lite\data\features\css-font-stretch.js133541535755075850 0
 121C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\@babel\runtime\helpers\esm\objectDestructuringEmpty.js133541536682845219 0
@@ -9526,7 +9526,7 @@
 89C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\ansi-styles\index.d.ts133541535613565496 0
 87C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\ansi-styles\index.js133541535584775271 0
 91C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\ansi-styles\package.json133541535592840801 0
-76C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist\index.a23f1c26.js133542376184057317 0
+76C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist\index.a23f1c26.js133544144060994019 0
 128C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo-node.js133541535722460676 0
 99C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\abortcontroller-polyfill\LICENSE133541535584272775 0
 104C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\abortcontroller-polyfill\package.json133541535648742601 0
@@ -11227,4 +11227,4 @@
 98C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\.bin\update-browserslist-db.cmd133541535839566371 0
 98C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\.bin\update-browserslist-db.ps1133541535839566371 0
 80C:\Users\150086967\Documents\GitHub\Budget-calulator-\node_modules\.bin\uuid.ps1133541536990388456 0
-80C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist\index.a23f1c26.js.map133542376184402802 0
+80C:\Users\150086967\Documents\GitHub\Budget-calulator-\dist\index.a23f1c26.js.map133544144061351701 0

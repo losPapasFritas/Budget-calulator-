@@ -37,6 +37,7 @@ body {
     justify-content: space-around;
     padding-left: 2%;
     padding-right: 2%;
+    height: 181vh;
 }
 
 .rightrow {
@@ -53,6 +54,9 @@ h1 {
 }
 .left {
     height: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 .topleft {
     display: flex;
@@ -84,8 +88,14 @@ h1 {
     padding: 10px;
 }
 
+.right>.row:last-child>.return{
+    justify-content: flex-end;
+}
+
 .row p {
-    width: 70%;
+    min-width: 50%;
+    max-width: 70%;
+    text-align: center;
 }
 .row input {
     width: 10rem;
@@ -98,7 +108,7 @@ h1 {
     justify-content: space-between;
 }
 /* rightrow needs to be made the entire height of the page */
-input {
+input, select option {
     display: flex;
     align-self: center;
     background-color: #93F291;
@@ -115,7 +125,8 @@ input {
     border-style:solid;
     border-radius:5px;
     background-color:#93F291;
-    padding: 5px 90px 5px 30px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
 }
 #inputHolder p {
     display:flex;
@@ -128,4 +139,15 @@ input {
 #inputHolder {
  display:flex;
  justify-content: center;
+}
+.visible{
+    display: block;
+}
+.hidden, #inputHolder .hidden{
+    display: none;
+}
+
+.circle{
+    border-style: solid;
+    border-radius: 100%;
 }

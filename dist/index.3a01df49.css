@@ -23,6 +23,7 @@ body {
 .right {
   flex-direction: column;
   justify-content: space-around;
+  height: 181vh;
   padding-left: 2%;
   padding-right: 2%;
   display: flex;
@@ -42,7 +43,10 @@ h1 {
 }
 
 .left {
+  flex-flow: column;
+  align-items: center;
   height: 50%;
+  display: flex;
 }
 
 .topleft {
@@ -76,8 +80,14 @@ h1 {
   padding: 10px;
 }
 
+.right > .row:last-child > .return {
+  justify-content: flex-end;
+}
+
 .row p {
-  width: 70%;
+  text-align: center;
+  min-width: 50%;
+  max-width: 70%;
 }
 
 .row input {
@@ -91,7 +101,7 @@ h1 {
   display: flex;
 }
 
-input {
+input, select option {
   text-align: center;
   background-color: #93f291;
   align-self: center;
@@ -107,9 +117,31 @@ input {
 }
 
 .output {
+  text-align: center;
   background-color: #93f291;
   border-style: solid;
   border-radius: 5px;
-  padding: 15px 90px 5px 30px;
+  padding: 5px 10px;
+}
+
+#inputHolder p {
+  background-color: #93f291;
+  border: 2px solid #000;
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+}
+
+#inputHolder {
+  justify-content: center;
+  display: flex;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden, #inputHolder .hidden {
+  display: none;
 }
 /*# sourceMappingURL=index.3a01df49.css.map */

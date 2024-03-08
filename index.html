@@ -15,11 +15,11 @@
             <h1>Salary</h1>
             <section class="center">
                 <select id="jobs">
-                    
                 </select>
             </section>
             <section id="inputHolder">
-                <input type="number" placeholder="Monthly Salary" id="monthSalary">
+                <input type="number" placeholder="Monthly Salary" id="monthSalary" class="visible">
+                <p id="salaryConst" class="hidden"></p>
             </section>
             <section class="row">
                 <select>
@@ -160,108 +160,108 @@
         <div style="width: 800px;"><canvas id="chart"></canvas>
             <script type="module" src="chart.js"></script>
         </div>
-        </section>
-        <section class="right">
-            <section class="row">
-                <section class="title">
+    </section>
+    <section class="right">
+        <section class="row">
+            <section class="title">
                 <p>$0</p>
                 <p>Loans</p>
-                </section>
-                <section class="return">
-                <section></section>
-                <input id="loans" type="number">
-                </section>
             </section>
-            <section class="row">
-                <section class="title">
-                <p>$0</p>
-                <p>Housing and Insurance</p>
-                </section>
-                <section class="return">
-                <section></section>
-                <input id="housing" type="number">
-                </section>
-            </section>
-            <section class="row">
-                <section class="title">
-                <p>$0</p>
-                <p>Utilities</p>
-                </section>
-                <section class="return">
-                <section></section>
-                <input id="utilities" type="number">
-                </section>
-            </section>
-            <section class="row">
-                <section class="title">
-                <p>$0</p>
-                <p>Transportation</p>
-                </section>
-                <section class="return">
-                <section></section>
-                <input id="transportation" type="number">
-                </section>
-            </section>
-            <section class="row">
-                <section class="title">
-                <p>$0</p>
-                <p>Food</p>
-                </section>
-                <section class="return">
-                <section></section>
-                <input id="food" type="number">
-                </section>
-            </section>
-            <section class="row">
-                <section class="title">
-                <p>$0</p>
-                <p>Clothing</p>
-                </section>
-                <section class="return">
-                <section></section>
-                <input id="clothing" type="number">
-                </section>
-            </section>
-            <section class="row">
-                <section class="title">
-                <p>$0</p>
-                <p>Media</p>
-                </section>
-                <section class="return">
-                <section></section>
-                <input id="media" type="number">
-                </section>
-            </section>
-            <section class="row">
-                <section class="title">
-                <p>$0</p>
-                <p>Entertainment</p>
-                </section>
-                <section class="return">
-                <section></section>
-                <input id="entertainment" type="number">
-                </section>
-            </section>
-            <section class="row">
-                <section class="title">
-                <p>$0</p>
-                <p>Savings</p>
-                </section>
-                <section class="return">
-                <section></section>
-                <input id="savings" type="number">
-                </section>
-            </section>
-            <section class="row">
-                <section class="title">
-                <p>$0</p>
-                <p>Total</p>
-                </section>
-                <section class="return">
-                <p>$0</p>
-                </section>
+            <section class="return">
+                <section class="circle red"></section>
+                <input id="loans" type="number" value=0>
             </section>
         </section>
+        <section class="row">
+            <section class="title">
+                <p>$0</p>
+                <p>Housing and Insurance</p>
+            </section>
+            <section class="return">
+                <section class="circle orange"></section>
+                <input id="housing" type="number" value=0>
+            </section>
+        </section>
+        <section class="row">
+            <section class="title">
+                <p>$0</p>
+                <p>Utilities</p>
+            </section>
+            <section class="return">
+                <section class="circle yellow"></section>
+                <input id="utilities" type="number" value=0>
+            </section>
+        </section>
+        <section class="row">
+            <section class="title">
+                <p>$0</p>
+                <p>Transportation</p>
+            </section>
+            <section class="return">
+                <section class="circle lightgreen"></section>
+                <input id="transportation" type="number" value=0>
+            </section>
+        </section>
+        <section class="row">
+            <section class="title">
+                <p>$0</p>
+                <p>Food</p>
+            </section>
+            <section class="return">
+                <section class="circle darkgreen"></section>
+                <input id="food" type="number" value=0>
+            </section>
+        </section>
+        <section class="row">
+            <section class="title">
+                <p>$0</p>
+                <p>Clothing</p>
+            </section>
+            <section class="return">
+                <section class="circle lightblue"></section>
+                <input id="clothing" type="number" value=0>
+            </section>
+        </section>
+        <section class="row">
+            <section class="title">
+                <p>$0</p>
+                <p>Media</p>
+            </section>
+            <section class="return">
+                <section class="circle darkblue"></section>
+                <input id="media" type="number" value=0>
+            </section>
+        </section>
+        <section class="row">
+            <section class="title">
+                <p>$0</p>
+                <p>Entertainment</p>
+            </section>
+            <section class="return">
+                <section class="circle pink"></section>
+                <input id="entertainment" type="number" value=0>
+            </section>
+        </section>
+        <section class="row">
+            <section class="title">
+                <p>$0</p>
+                <p>Savings</p>
+            </section>
+            <section class="return">
+                <section class="circle purple"></section>
+                <input id="savings" type="number" value=0>
+            </section>
+        </section>
+        <section class="row">
+            <section class="title">
+                <p>$0</p>
+                <p>Total Cost</p>
+            </section>
+            <section class="return">
+                <p id="total">$0</p>
+            </section>
+        </section>
+    </section>
 </body>
 
 </html>

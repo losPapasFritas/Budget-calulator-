@@ -590,9 +590,15 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
 (async function() {
     const data = {
         labels: [
-            "Red",
-            "Blue",
-            "Yellow"
+            "Loans",
+            "Housing and Insurance",
+            "Utilities",
+            `Transportation`,
+            `Food`,
+            `Clothing`,
+            `Media`,
+            `Entertainment`,
+            `Savings`
         ],
         datasets: [
             {
@@ -600,12 +606,24 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
                 data: [
                     10,
                     10,
-                    30
+                    30,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
                 ],
                 backgroundColor: [
-                    "rgb(255, 99, 132)",
-                    "rgb(54, 162, 235)",
-                    "rgb(255, 205, 86)"
+                    "#FF0000",
+                    "#FFA800",
+                    "#FAFF00",
+                    `#33FF00`,
+                    `#32C000`,
+                    `#24FCFC`,
+                    `#040EFF`,
+                    `#FA00FF`,
+                    `#AD00FF`
                 ],
                 hoverOffset: 4
             }
