@@ -154,6 +154,10 @@ input, select option {
   border-radius: 100%;
 }
 
+.textRed {
+  color: red;
+}
+
 .red {
   background-color: red;
 }

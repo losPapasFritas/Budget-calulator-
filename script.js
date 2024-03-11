@@ -98,6 +98,8 @@ function buildList(jobs) {
 }
 
 function updateMoney(money){
+    money /= 12;
+
     let fedTax = 0.12;
 
     let stTax = 0.07;
@@ -156,14 +158,22 @@ function addRight(){
     let savings = parseFloat(document.getElementById(`savings`).value);
     let total = loans + housing + util + transport + food + clothes + media + entertain + savings;
     document.getElementById(`total`).innerHTML =`$` + total
+    if (total > parseFloat(document.getElementById(`money`).innerHTML)){
+        document.getElementById(`warning`).classList.remove(`hidden`);
+        document.getElementById(`warning`).classList.add(`visible`);
+    }
+    else{
+        document.getElementById(`warning`).classList.remove(`visible`);
+        document.getElementById(`warning`).classList.add(`hidden`);
+    }
 }
 
 document.addEventListener('DOMContentLoaded', init);
     
 document.addEventListener("DOMContentLoaded", function () {
 
-    document.getElementById('jobs').addEventListener('change', function (eventData) {
-        if(eventData.target.value == 0){
+    document.getElementById('jobs').addEventListener('change', function (e) {
+        if(e.target.value == 0){
             document.getElementById(`monthSalary`).classList.remove(`hidden`);
             document.getElementById(`salaryConst`).classList.remove(`visible`);
             document.getElementById(`monthSalary`).classList.add(`visible`);
@@ -174,11 +184,11 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById(`monthSalary`).classList.add(`hidden`);
             document.getElementById(`salaryConst`).classList.add(`visible`);
 
-            updateMoney(eventData.target.value);
+            updateMoney(e.target.value);
         }
     })
 
-    document.getElementById('monthSalary').addEventListener('change', function (eventData) {
+    document.getElementById('monthSalary').addEventListener('change', function (e) {
         if(document.getElementById("monthSalary").value >= 100000000000){
             window.alert(`Input value is too large`);
         }

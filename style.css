@@ -173,6 +173,10 @@ select option {
     border-radius: 100%;
 }
 
+.textRed{
+    color: #FF0000;
+}
+
 .red {
     background-color: #FF0000;
 }
