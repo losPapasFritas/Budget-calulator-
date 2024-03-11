@@ -1,4 +1,3 @@
-
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 /* .inter-<uniquifier> {
@@ -14,6 +13,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 1rem;
     display: flex;
@@ -22,6 +22,7 @@ body {
     font-family: "Inter", sans-serif;
     border: black solid 1px;
 }
+
 .left,
 .right {
     flex-flow: column;
@@ -37,38 +38,41 @@ body {
     justify-content: space-around;
     padding-left: 2%;
     padding-right: 2%;
-    height: 181vh;
+    height: 175.7vh;
 }
 
 .rightrow {
-    background-color:#E6E6E6 ;
+    background-color: #E6E6E6;
     border-style: solid;
     margin: 1%;
     padding-left: 15%;
-    padding-right:15%
+    padding-right: 15%
 }
 
 h1 {
     font-size: 2rem;
     text-align: center;
 }
+
 .left {
     height: 50%;
     display: flex;
     flex-flow: column;
     align-items: center;
 }
+
 .topleft {
     display: flex;
     flex-flow: column;
     background-color: #99D4FF;
 }
+
 .row {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    background-color:#E6E6E6 ;
+    background-color: #E6E6E6;
     border-style: solid;
     margin: 1%;
     padding-right: 5%;
@@ -76,78 +80,131 @@ h1 {
     height: 5rem;
 }
 
-.title,.return{
+.title,
+.return {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     width: 13vw;
 }
 
-.title>*,.return>*{
+.title>*,
+.return>* {
     padding: 10px;
 }
 
-.right>.row:last-child>.return{
+.right>.row:last-child>.return {
     justify-content: flex-end;
 }
 
 .row p {
-    min-width: 50%;
-    max-width: 70%;
+    width: 100%;
     text-align: center;
 }
+
 .row input {
     width: 10rem;
     height: 60%;
     margin: 0;
     margin-left: 4px;
 }
+
 .rightrow {
     display: flex;
     justify-content: space-between;
 }
+
 /* rightrow needs to be made the entire height of the page */
-input, select option {
+input,
+select option {
     display: flex;
     align-self: center;
     background-color: #93F291;
     width: 50%;
     height: 60%;
     margin: 1rem 0;
+    font-size: 18;
     text-align: center;
 }
+
 .center {
     display: flex;
     justify-content: center;
 }
-.output{
-    border-style:solid;
-    border-radius:5px;
-    background-color:#93F291;
+
+.output {
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #93F291;
     padding: 5px 10px 5px 10px;
     text-align: center;
 }
+
 #inputHolder p {
-    display:flex;
+    display: flex;
     justify-content: center;
     border-style: solid;
     border: 2px solid black;
     background-color: #93F291;
     padding: 10px;
 }
+
 #inputHolder {
- display:flex;
- justify-content: center;
+    display: flex;
+    justify-content: center;
 }
-.visible{
+
+.visible {
     display: block;
 }
-.hidden, #inputHolder .hidden{
+
+.hidden,
+#inputHolder .hidden {
     display: none;
 }
 
-.circle{
+#chart{
+    margin-bottom: 10px;
+}
+
+.circle {
     border-style: solid;
     border-radius: 100%;
+}
+
+.red {
+    background-color: #FF0000;
+}
+
+.orange {
+    background-color: #FFA800;
+}
+
+.yellow {
+    background-color: #FAFF00;
+}
+
+.lightgreen {
+    background-color: #33FF00;
+}
+
+.darkgreen {
+    background-color: #32C000;
+}
+
+.lightblue {
+    background-color: #24FCFC;
+}
+
+.darkblue {
+    background-color: #040EFF;
+}
+
+.pink {
+    background-color: #FA00FF;
+}
+
+.purple {
+    background-color: #AD00FF;
 }
