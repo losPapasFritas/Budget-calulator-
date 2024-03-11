@@ -89,6 +89,18 @@ function updateMoney(money) {
     output = fedTax + stTax + socSec + medicare + stDis + retInv + 180;
     document.getElementById("money").innerHTML = money - output;
 }
+function updateChart() {
+    chart.data.datasets[0].data[0] = parseFloat(document.getElementById(`loans`).value);
+    chart.data.datasets[0].data[1] = parseFloat(document.getElementById(`housing`).value);
+    chart.data.datasets[0].data[2] = parseFloat(document.getElementById(`utilities`).value);
+    chart.data.datasets[0].data[3] = parseFloat(document.getElementById(`transportation`).value);
+    chart.data.datasets[0].data[4] = parseFloat(document.getElementById(`food`).value);
+    chart.data.datasets[0].data[5] = parseFloat(document.getElementById(`clothing`).value);
+    chart.data.datasets[0].data[6] = parseFloat(document.getElementById(`media`).value);
+    chart.data.datasets[0].data[7] = parseFloat(document.getElementById(`entertainment`).value);
+    chart.data.datasets[0].data[8] = parseFloat(document.getElementById(`savings`).value);
+    chart.update();
+}
 function addRight() {
     let loans = parseFloat(document.getElementById(`loans`).value);
     let housing = parseFloat(document.getElementById(`housing`).value);
