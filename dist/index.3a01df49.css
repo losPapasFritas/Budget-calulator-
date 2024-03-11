@@ -23,7 +23,7 @@ body {
 .right {
   flex-direction: column;
   justify-content: space-around;
-  height: 181vh;
+  height: 175.7vh;
   padding-left: 2%;
   padding-right: 2%;
   display: flex;
@@ -86,8 +86,7 @@ h1 {
 
 .row p {
   text-align: center;
-  min-width: 50%;
-  max-width: 70%;
+  width: 100%;
 }
 
 .row input {
@@ -108,6 +107,7 @@ input, select option {
   width: 50%;
   height: 60%;
   margin: 1rem 0;
+  font-size: 18px;
   display: flex;
 }
 
@@ -143,5 +143,50 @@ input, select option {
 
 .hidden, #inputHolder .hidden {
   display: none;
+}
+
+#chart {
+  margin-bottom: 10px;
+}
+
+.circle {
+  border-style: solid;
+  border-radius: 100%;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: #ffa800;
+}
+
+.yellow {
+  background-color: #faff00;
+}
+
+.lightgreen {
+  background-color: #3f0;
+}
+
+.darkgreen {
+  background-color: #32c000;
+}
+
+.lightblue {
+  background-color: #24fcfc;
+}
+
+.darkblue {
+  background-color: #040eff;
+}
+
+.pink {
+  background-color: #fa00ff;
+}
+
+.purple {
+  background-color: #ad00ff;
 }
 /*# sourceMappingURL=index.3a01df49.css.map */

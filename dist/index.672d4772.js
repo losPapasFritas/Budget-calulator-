@@ -40,7 +40,7 @@ async function init() {
     //get the root element of the web page
     let root = document.querySelector("#jobs");
     //create a variable to hold the URL of the JSON data source
-    let url = "https://api-demo.cartwebapp.com/data/2024";
+    let url = "https://eecu-data-server.vercel.app/data/2024";
     //create a variable to hold the JSON data
     let occupations = null;
     //try to retrieve the JSON data from the server
@@ -57,7 +57,7 @@ async function init() {
 }
 function buildList(jobs) {
     //create an empty string to hold the HTML
-    let html = '<option value="0">custom</option>';
+    let html = '<option value="0">Custom</option>';
     //loop through the array of job objects retrieved from the JSON data
     for (let job of jobs)//start an HTML section for each job
     /* An alternative way of looping through each item in the data, not as useful for this assignment but something to keep in mind for a story? ... */ //loop through each entry and create a div for each key:value pair
@@ -150,6 +150,33 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById(`savings`).addEventListener(`change`, function() {
         addRight();
     });
+});
+document.getElementById(`loans`).addEventListener(`change`, function() {
+    changeData();
+});
+document.getElementById(`housing`).addEventListener(`change`, function() {
+    changeData();
+});
+document.getElementById(`utilities`).addEventListener(`change`, function() {
+    changeData();
+});
+document.getElementById(`transportation`).addEventListener(`change`, function() {
+    changeData();
+});
+document.getElementById(`food`).addEventListener(`change`, function() {
+    changeData();
+});
+document.getElementById(`clothing`).addEventListener(`change`, function() {
+    changeData();
+});
+document.getElementById(`media`).addEventListener(`change`, function() {
+    changeData();
+});
+document.getElementById(`entertainment`).addEventListener(`change`, function() {
+    changeData();
+});
+document.getElementById(`savings`).addEventListener(`change`, function() {
+    changeData();
 });
 
 //# sourceMappingURL=index.672d4772.js.map
